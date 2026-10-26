@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy: Innovation & Entrepreneurship Project</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Using robust, modern fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+    </style>
+    <!-- Chart.js for data visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- FontAwesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="app-layout">
+        <!-- Modern Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-area">
+                <div class="logo-icon"><i class="fa-solid fa-bolt"></i></div>
+                <div class="logo-text">SWIGGY<br><span>PROJECT</span></div>
+            </div>
+            
+            <div class="nav-label">DASHBOARD NAVIGATION</div>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-item">
+                    <i class="fa-solid fa-house"></i> <span>Executive Summary</span>
+                </a>
+                <a href="business-model.html" class="nav-item">
+                    <i class="fa-solid fa-sitemap"></i> <span>Business Model</span>
+                </a>
+                <a href="financials.html" class="nav-item">
+                    <i class="fa-solid fa-chart-line"></i> <span>Financials & IPO</span>
+                </a>
+                <a href="behavioral-ux.html" class="nav-item">
+                    <i class="fa-solid fa-mobile-screen"></i> <span>Behavioral UX</span>
+                </a>
+                <a href="retail-media.html" class="nav-item">
+                    <i class="fa-solid fa-bullseye"></i> <span>Retail Media (RMN)</span>
+                </a>
+                <a href="strategy.html" class="nav-item">
+                    <i class="fa-solid fa-chess-knight"></i> <span>Strategy & SWOT</span>
+                </a>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <div class="course-tag">Innovation & Entrepreneurship</div>
+                <div class="univ-tag">Delhi University • SBSC</div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="content-area">
+            <div class="top-nav">
+                <div class="nav-breadcrumb">Swiggy Analytical Project <span id="current-page-crumb"></span></div>
+                <div class="nav-team"><i class="fa-solid fa-user-group"></i> Group Project Presentation</div>
+            </div>
+            <div class="scroll-container">
+
+    <!-- Splash Screen Preface -->
+    <div id="splash-screen">
+        <div class="splash-glass">
+            <div class="splash-icon fade-up"><i class="fa-solid fa-bolt"></i></div>
+            <h4 class="fade-up delay-1">Skill Enhancement Course</h4>
+            <h1 class="fade-up delay-2">THE SWIGGY PROJECT</h1>
+            <p class="fade-up delay-3">Business Model Innovation, Revenue Architecture & Behavioral UX</p>
+            <button id="enter-btn" class="fade-up delay-4">Access Dashboard <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <div class="page-header">
+        <div class="header-badge">01. Overview</div>
+        <h1>Executive Summary</h1>
+        <p>Project Origins, Core Abstract, and Evolution Milestones</p>
+    </div>
+    
+    <div class="content-wrapper">
+        <!-- Abstract Banners -->
+        <div class="card bento-full gradient-card">
+            <h2><i class="fa-solid fa-microscope"></i> Project Abstract</h2>
+            <div class="text-content">
+                <p>This analytical project examines how Swiggy, one of India's two dominant food delivery platforms, creates, delivers, and captures value. Taking the foundational 2022 case study by Prashar, Bawa, and Kaur as a base, we test its historical description against the aggressive modern developments up to Swiggy's Q1 FY2027 results (April-June 2026).</p>
+                <p>The analysis deconstructs Swiggy's evolution from a simple two-sided aggregator earning base commissions, into a complex ecosystem where quick commerce (Instamart) challenges food delivery in gross order volume. Crucially, the project investigates how Swiggy is shifting towards unit profitability via zero-marginal-cost digital levers: <strong>Behavioral UX choice architecture</strong> and <strong>Retail Media Networks (RMN)</strong>.</p>
+            </div>
+        </div>
+
+        <div class="grid-2">
+            <!-- Contributors -->
+            <div class="card">
+                <div class="card-header">
+                    <h2><i class="fa-solid fa-graduation-cap"></i> Project Contributors</h2>
+                    <span class="badge">SBSC, DU</span>
+                </div>
+                <p class="text-muted" style="margin-bottom:20px; font-size:0.9rem;">Course: Innovation and Entrepreneurship</p>
+                
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="member-avatar">KJ</div>
+                        <div class="member-info">
+                            <strong>Kavish Jindal</strong>
+                            <span>25/BAP/113</span>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-avatar">SP</div>
+                        <div class="member-info">
+                            <strong>Sufal Pasricha</strong>
+                            <span>25/BAP/158</span>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-avatar">RJ</div>
+                        <div class="member-info">
+                            <strong>Rajdeep Jaiswal</strong>
+                            <span>25/BAP/115</span>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-avatar">KK</div>
+                        <div class="member-info">
+                            <strong>Kanchan Kumari</strong>
+                            <span>25/BAP/230</span>
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-avatar">SP</div>
+                        <div class="member-info">
+                            <strong>Shubhanshu Pandey</strong>
+                            <span>25/BAP/146</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Timeline -->
+            <div class="card">
+                <h2><i class="fa-solid fa-timeline"></i> Evolution Milestones</h2>
+                <div class="timeline">
+                    <div class="time-item">
+                        <div class="time-marker"></div>
+                        <div class="time-content">
+                            <strong>2014: The Launch</strong>
+                            <p>Founded in Bangalore. Began with just 25 partner restaurants and 6 delivery executives.</p>
+                        </div>
+                    </div>
+                    <div class="time-item">
+                        <div class="time-marker"></div>
+                        <div class="time-content">
+                            <strong>2019-2020: Diversification</strong>
+                            <p>Launch of Swiggy Stores, Swiggy Go (Genie), and the pioneering of 10-30 min quick commerce via Instamart.</p>
+                        </div>
+                    </div>
+                    <div class="time-item">
+                        <div class="time-marker"></div>
+                        <div class="time-content">
+                            <strong>2023: Unit Economics</strong>
+                            <p>Introduction of the mandatory flat ₹2 platform fee to drive localized unit profitability.</p>
+                        </div>
+                    </div>
+                    <div class="time-item highlight-time">
+                        <div class="time-marker"></div>
+                        <div class="time-content">
+                            <strong>Nov 2024: Public Markets</strong>
+                            <p>Listed on NSE/BSE. Massive IPO of ₹11,327 Cr, valuing the company at ₹87,300 Cr.</p>
+                        </div>
+                    </div>
+                    <div class="time-item">
+                        <div class="time-marker"></div>
+                        <div class="time-content">
+                            <strong>Q1 2026: Scale</strong>
+                            <p>1,171 active dark stores. Food delivery officially hits adjusted EBITDA profitability.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Network Growth Stats -->
+        <div class="card bento-full">
+            <h2><i class="fa-solid fa-chart-pie"></i> Explosive Network Growth (2014 vs Present)</h2>
+            <div class="stats-row">
+                <div class="stat-box">
+                    <div class="stat-title">Restaurant Partners</div>
+                    <div class="stat-value">25 <i class="fa-solid fa-arrow-right"></i> 12,000+</div>
+                    <div class="stat-growth">480x Growth</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-title">Delivery Executives</div>
+                    <div class="stat-value">6 <i class="fa-solid fa-arrow-right"></i> 13,000+</div>
+                    <div class="stat-growth">2,167x Growth</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-title">City Footprint</div>
+                    <div class="stat-value">1 <i class="fa-solid fa-arrow-right"></i> 131+</div>
+                    <div class="stat-growth">Pan-India Scale</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            </div> <!-- End scroll container -->
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

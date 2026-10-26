@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy: Innovation & Entrepreneurship Project</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Using robust, modern fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+    </style>
+    <!-- Chart.js for data visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- FontAwesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="app-layout">
+        <!-- Modern Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-area">
+                <div class="logo-icon"><i class="fa-solid fa-bolt"></i></div>
+                <div class="logo-text">SWIGGY<br><span>PROJECT</span></div>
+            </div>
+            
+            <div class="nav-label">DASHBOARD NAVIGATION</div>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-item">
+                    <i class="fa-solid fa-house"></i> <span>Executive Summary</span>
+                </a>
+                <a href="business-model.html" class="nav-item">
+                    <i class="fa-solid fa-sitemap"></i> <span>Business Model</span>
+                </a>
+                <a href="financials.html" class="nav-item">
+                    <i class="fa-solid fa-chart-line"></i> <span>Financials & IPO</span>
+                </a>
+                <a href="behavioral-ux.html" class="nav-item">
+                    <i class="fa-solid fa-mobile-screen"></i> <span>Behavioral UX</span>
+                </a>
+                <a href="retail-media.html" class="nav-item">
+                    <i class="fa-solid fa-bullseye"></i> <span>Retail Media (RMN)</span>
+                </a>
+                <a href="strategy.html" class="nav-item">
+                    <i class="fa-solid fa-chess-knight"></i> <span>Strategy & SWOT</span>
+                </a>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <div class="course-tag">Innovation & Entrepreneurship</div>
+                <div class="univ-tag">Delhi University • SBSC</div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="content-area">
+            <div class="top-nav">
+                <div class="nav-breadcrumb">Swiggy Analytical Project <span id="current-page-crumb"></span></div>
+                <div class="nav-team"><i class="fa-solid fa-user-group"></i> Group Project Presentation</div>
+            </div>
+            <div class="scroll-container">
+
+    <div class="page-header">
+        <div class="header-badge">03. Economics</div>
+        <h1>Financials & Revenue</h1>
+        <p>Monetization Streams, Cost Structures, and Q1 FY2027 Performance</p>
+    </div>
+
+    <div class="content-wrapper">
+        <div class="card bento-full">
+            <h2><i class="fa-solid fa-money-bill-trend-up"></i> The 7 Core Revenue Streams</h2>
+            <p class="lead-text">To decouple from sole reliance on merchant commissions, Swiggy has aggressively diversified its income matrix.</p>
+            
+            <div class="revenue-grid">
+                <div class="rev-card">
+                    <div class="rev-icon"><i class="fa-solid fa-percent"></i></div>
+                    <h3>1. Commissions</h3>
+                    <p>15-25% of order value. Exclusive partners receive a ~2% visibility reduction.</p>
+                </div>
+                <div class="rev-card">
+                    <div class="rev-icon"><i class="fa-solid fa-motorcycle"></i></div>
+                    <h3>2. Delivery Charges</h3>
+                    <p>Distance & weather-based fees, heavily nudging users towards larger basket sizes.</p>
+                </div>
+                <div class="rev-card">
+                    <div class="rev-icon"><i class="fa-solid fa-bullhorn"></i></div>
+                    <h3>3. Advertising</h3>
+                    <p>High-margin priority search listings and banner promotions sold to restaurants.</p>
+                </div>
+                <div class="rev-card">
+                    <div class="rev-icon"><i class="fa-solid fa-crown"></i></div>
+                    <h3>4. Swiggy One</h3>
+                    <p>Subscription cash flow that drastically cuts user multi-homing on rival apps.</p>
+                </div>
+                <div class="rev-card">
+                    <div class="rev-icon"><i class="fa-solid fa-cloud"></i></div>
+                    <h3>5. Swiggy Access</h3>
+                    <p>Cloud kitchen infrastructure scaling partner reach into unserved neighborhoods.</p>
+                </div>
+                <div class="rev-card">
+                    <div class="rev-icon"><i class="fa-solid fa-utensils"></i></div>
+                    <h3>6. Own Brands</h3>
+                    <p>Private label restaurants providing ultimate quality, margin, and data control.</p>
+                </div>
+                <div class="rev-card">
+                    <div class="rev-icon"><i class="fa-solid fa-credit-card"></i></div>
+                    <h3>7. Affiliate Income</h3>
+                    <p>Financial tie-ups (Swiggy HDFC Bank Card) capturing off-platform spend data.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-2">
+            <!-- Cost Structure -->
+            <div class="card">
+                <h2><i class="fa-solid fa-file-invoice-dollar"></i> Primary Cost Centers</h2>
+                <div class="cost-list">
+                    <div class="cost-item">
+                        <div class="c-icon"><i class="fa-solid fa-gas-pump"></i></div>
+                        <div class="c-text">
+                            <strong>Logistics & Payouts</strong>
+                            <p>Delivery partner incentives, fuel, and weather-surge subsidies (highly variable).</p>
+                        </div>
+                    </div>
+                    <div class="cost-item">
+                        <div class="c-icon"><i class="fa-solid fa-warehouse"></i></div>
+                        <div class="c-text">
+                            <strong>Physical Infrastructure</strong>
+                            <p>Dark store leases for Instamart operations and cloud kitchen spaces.</p>
+                        </div>
+                    </div>
+                    <div class="cost-item">
+                        <div class="c-icon"><i class="fa-solid fa-tags"></i></div>
+                        <div class="c-text">
+                            <strong>Customer Acquisition</strong>
+                            <p>Marketing budgets, aggressive discounting, and retention cash-burn.</p>
+                        </div>
+                    </div>
+                    <div class="cost-item">
+                        <div class="c-icon"><i class="fa-solid fa-code"></i></div>
+                        <div class="c-text">
+                            <strong>Tech & Operations</strong>
+                            <p>Server costs, app maintenance, corporate payroll, and automated refunds.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Financial Performance Chart -->
+            <div class="card">
+                <h2><i class="fa-solid fa-chart-column"></i> Q1 FY2027 Snapshot (₹ Cr)</h2>
+                <div class="chart-container" style="position: relative; height:250px; width:100%; margin-top:20px;">
+                    <canvas id="financialChart"></canvas>
+                </div>
+                <table class="modern-table" style="margin-top:20px;">
+                    <tr><td><strong>Revenue (Ops)</strong></td><td class="text-right">₹6,812 Cr <span class="badge-green">+37.3%</span></td></tr>
+                    <tr><td><strong>Consolidated Net Loss</strong></td><td class="text-right">₹791 Cr <span class="badge-green">Narrowing</span></td></tr>
+                    <tr><td><strong>Food Delivery EBITDA</strong></td><td class="text-right accent-text">₹292 Cr (Profitable)</td></tr>
+                    <tr><td><strong>Instamart EBITDA</strong></td><td class="text-right text-red">-₹778 Cr (Loss)</td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+            </div> <!-- End scroll container -->
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

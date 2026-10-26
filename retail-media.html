@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy: Innovation & Entrepreneurship Project</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Using robust, modern fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+    </style>
+    <!-- Chart.js for data visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- FontAwesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="app-layout">
+        <!-- Modern Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-area">
+                <div class="logo-icon"><i class="fa-solid fa-bolt"></i></div>
+                <div class="logo-text">SWIGGY<br><span>PROJECT</span></div>
+            </div>
+            
+            <div class="nav-label">DASHBOARD NAVIGATION</div>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-item">
+                    <i class="fa-solid fa-house"></i> <span>Executive Summary</span>
+                </a>
+                <a href="business-model.html" class="nav-item">
+                    <i class="fa-solid fa-sitemap"></i> <span>Business Model</span>
+                </a>
+                <a href="financials.html" class="nav-item">
+                    <i class="fa-solid fa-chart-line"></i> <span>Financials & IPO</span>
+                </a>
+                <a href="behavioral-ux.html" class="nav-item">
+                    <i class="fa-solid fa-mobile-screen"></i> <span>Behavioral UX</span>
+                </a>
+                <a href="retail-media.html" class="nav-item">
+                    <i class="fa-solid fa-bullseye"></i> <span>Retail Media (RMN)</span>
+                </a>
+                <a href="strategy.html" class="nav-item">
+                    <i class="fa-solid fa-chess-knight"></i> <span>Strategy & SWOT</span>
+                </a>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <div class="course-tag">Innovation & Entrepreneurship</div>
+                <div class="univ-tag">Delhi University • SBSC</div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="content-area">
+            <div class="top-nav">
+                <div class="nav-breadcrumb">Swiggy Analytical Project <span id="current-page-crumb"></span></div>
+                <div class="nav-team"><i class="fa-solid fa-user-group"></i> Group Project Presentation</div>
+            </div>
+            <div class="scroll-container">
+
+    <div class="page-header">
+        <div class="header-badge">05. Monetization</div>
+        <h1>Retail Media Networks (RMN)</h1>
+        <p>Monetizing First-Party Intent Data via Ad-Tech</p>
+    </div>
+
+    <div class="content-wrapper">
+        <div class="grid-2">
+            <div class="card">
+                <h2><i class="fa-solid fa-scale-unbalanced"></i> Monetization Asymmetry</h2>
+                <p>Physical fulfillment (wages, fuel, dark-store leases) is structurally constrained by high variable costs. Digital advertising, however, carries <strong>near-zero marginal cost</strong>.</p>
+                <p style="margin-top: 15px;">Swiggy captures user intent at the exact point of purchase, converting standard UI traffic into a highly profitable ad-tech ecosystem that offsets logistics drag.</p>
+                
+                <div class="formula-box" style="margin-top: 20px; font-family: monospace; background: #f8fafc; padding: 15px; border-radius: 8px; border-left: 4px solid var(--accent);">
+                    Margin<sub>(Ad-Tech)</sub> = Ad Revenue - Serving Cost (≈0)
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2><i class="fa-solid fa-bullseye"></i> The Ad-Tech Arsenal</h2>
+                <table class="modern-table">
+                    <thead>
+                        <tr>
+                            <th>Format</th>
+                            <th>Mechanism</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Sponsored Search</strong></td>
+                            <td>CPC bidding on high-intent keywords ("Biryani"). Targeted at Restaurants.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Digital Shelf</strong></td>
+                            <td>Top ranking in Instamart sub-categories. Bought by FMCG Brands (Nestlé).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Impulse Basket</strong></td>
+                            <td>"Frequently added" checkout micro-carousels for D2C Snack Challengers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Brand Sampling</strong></td>
+                            <td>Physical samples inserted into delivery bags for launch-phase CPGs.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="card bento-full">
+            <h2><i class="fa-solid fa-arrows-spin"></i> The UX-RMN Flywheel Architecture</h2>
+            
+            <div class="flywheel-container">
+                <div class="fw-step">
+                    <div class="fw-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                    <h3>1. Engagement</h3>
+                    <p>UI nudges increase basket size, generating rich first-party intent data.</p>
+                </div>
+                <div class="fw-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                
+                <div class="fw-step">
+                    <div class="fw-icon"><i class="fa-solid fa-gavel"></i></div>
+                    <h3>2. Inventory</h3>
+                    <p>High-intent traffic enriches RMN slots. Brands bid higher (CPC/CPM).</p>
+                </div>
+                <div class="fw-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                
+                <div class="fw-step">
+                    <div class="fw-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>3. Subsidization</h3>
+                    <p>High-margin ad revenue buffers the heavy physical costs of dark-store logistics.</p>
+                </div>
+                <div class="fw-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                
+                <div class="fw-step">
+                    <div class="fw-icon"><i class="fa-solid fa-sack-dollar"></i></div>
+                    <h3>4. Reinvestment</h3>
+                    <p>Profits funneled back into aggressive discounting, retention, and superior UI.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            </div> <!-- End scroll container -->
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

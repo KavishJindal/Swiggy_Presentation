@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy: Innovation & Entrepreneurship Project</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Using robust, modern fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+    </style>
+    <!-- Chart.js for data visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- FontAwesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="app-layout">
+        <!-- Modern Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-area">
+                <div class="logo-icon"><i class="fa-solid fa-bolt"></i></div>
+                <div class="logo-text">SWIGGY<br><span>PROJECT</span></div>
+            </div>
+            
+            <div class="nav-label">DASHBOARD NAVIGATION</div>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-item">
+                    <i class="fa-solid fa-house"></i> <span>Executive Summary</span>
+                </a>
+                <a href="business-model.html" class="nav-item">
+                    <i class="fa-solid fa-sitemap"></i> <span>Business Model</span>
+                </a>
+                <a href="financials.html" class="nav-item">
+                    <i class="fa-solid fa-chart-line"></i> <span>Financials & IPO</span>
+                </a>
+                <a href="behavioral-ux.html" class="nav-item">
+                    <i class="fa-solid fa-mobile-screen"></i> <span>Behavioral UX</span>
+                </a>
+                <a href="retail-media.html" class="nav-item">
+                    <i class="fa-solid fa-bullseye"></i> <span>Retail Media (RMN)</span>
+                </a>
+                <a href="strategy.html" class="nav-item">
+                    <i class="fa-solid fa-chess-knight"></i> <span>Strategy & SWOT</span>
+                </a>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <div class="course-tag">Innovation & Entrepreneurship</div>
+                <div class="univ-tag">Delhi University • SBSC</div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="content-area">
+            <div class="top-nav">
+                <div class="nav-breadcrumb">Swiggy Analytical Project <span id="current-page-crumb"></span></div>
+                <div class="nav-team"><i class="fa-solid fa-user-group"></i> Group Project Presentation</div>
+            </div>
+            <div class="scroll-container">
+
+    <div class="page-header">
+        <div class="header-badge">04. Psychology</div>
+        <h1>Behavioral UX Architecture</h1>
+        <p>The Checkout Funnel, Nudge Theory, and Regulatory Scrutiny</p>
+    </div>
+
+    <div class="content-wrapper">
+        <div class="card bento-full gradient-card-dark">
+            <h2><i class="fa-solid fa-brain"></i> The Storefront as a Choice Engine</h2>
+            <p style="font-size: 1.1rem;">Modern platforms do not passively display menus. They employ structured UI nudges—leveraging cognitive biases from Kahneman & Tversky's Prospect Theory—to elevate the Average Order Value (AOV) and radically shift margin profiles.</p>
+        </div>
+
+        <div class="grid-2">
+            <!-- Nudge Tactics -->
+            <div class="card">
+                <h2><i class="fa-solid fa-wand-magic-sparkles"></i> Core UX Nudges</h2>
+                
+                <div class="ux-nudge-box">
+                    <div class="ux-title">1. Drip Pricing & JND</div>
+                    <p>Revealing the mandatory flat fee (e.g., ₹2) late in checkout leverages the <em>Just Noticeable Difference</em>. Sunk-cost prevents cart abandonment.</p>
+                </div>
+                
+                <div class="ux-nudge-box">
+                    <div class="ux-title">2. Basket-Building Thresholds</div>
+                    <p><strong>"Add ₹35 more to unlock Free Delivery."</strong> Users perceive delivery fees as a loss, prompting the addition of high-margin impulse items.</p>
+                </div>
+                
+                <div class="ux-nudge-box">
+                    <div class="ux-title">3. Choice Friction</div>
+                    <p>Multi-step warnings for 100% cancellation fees protect margins. Chatbot decision trees obscure expensive live human support.</p>
+                </div>
+                
+                <div class="ux-nudge-box">
+                    <div class="ux-title">4. Sunk-Cost Subscription</div>
+                    <p>Paying upfront for Swiggy One psychologically zeroes out the marginal delivery cost, drastically curtailing competitor "multi-homing".</p>
+                </div>
+            </div>
+
+            <!-- Regulatory Matrix -->
+            <div class="card">
+                <h2><i class="fa-solid fa-scale-balanced"></i> Regulatory Scrutiny Matrix</h2>
+                <p class="text-muted" style="margin-bottom: 20px;">Tracking deceptive interfaces via CCPA Dark Patterns & ASCI Guidelines.</p>
+                
+                <table class="modern-table dark-header-table">
+                    <thead>
+                        <tr>
+                            <th>UX Practice</th>
+                            <th>Legal Concern (CCPA Class)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Step-up Drip Pricing</strong><br><span class="text-sm text-muted">Late fee reveal</span></td>
+                            <td><span class="badge-red">Price Transparency</span><br>Drip pricing violation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Pre-selected Tips</strong><br><span class="text-sm text-muted">Auto-selected chips</span></td>
+                            <td><span class="badge-red">Manipulative Defaults</span><br>Basket sneaking</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Urgency Timers</strong><br><span class="text-sm text-muted">Countdown clocks</span></td>
+                            <td><span class="badge-red">False Scarcity</span><br>False urgency creation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Hidden Redress</strong><br><span class="text-sm text-muted">Chatbot loops</span></td>
+                            <td><span class="badge-red">Obstruction</span><br>Blocking legal redress</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+            </div> <!-- End scroll container -->
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
